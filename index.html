@@ -20,7 +20,7 @@
             font-size: 18px;
             margin: 0;
             padding: 0;
-            background-color: black;
+            background-color: #111111;
             text-align: center;
         }
         .container {
@@ -30,9 +30,7 @@
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            background-color: black;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
         }
         h1 {
             color: white;
@@ -72,17 +70,19 @@
             display: block;
             margin: 10px 0 8px 0;
             padding: 16px 20px 15px 20px;
-            background-color: #222222;
+            background-color: black;
             color: #fff;
-            text-decoration: none;
-            border-radius: 1rem;
+            text-decoration: underline;
+            text-decoration-color: transparent;
+            border-radius: 0;
             font-size: 1.5rem;
-            transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-            border: 1px solid transparent;
+            transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, border-radius 0.3s ease-in-out, text-decoration 0.5s ease-in-out, text-decoration-color 0.5s ease-in-out;
+            border: 1px solid white;
         }
         .link:hover {
-            background-color: black;
-            border-color: white;
+            border-color: transparent;
+            border-radius: 5rem;
+            text-decoration-color: white;
         }
         .link:focus {
             outline: 3px solid white;
