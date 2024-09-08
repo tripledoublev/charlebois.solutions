@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Charlebois</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">   
+    <link rel="preload" href="WorkSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <style>
+        @font-face {
+            font-family: 'Work Sans';
+            src: url('WorkSans-Regular.woff2') format('woff2'),
+                url('WorkSans-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        body {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            text-align: center;
+        }
+        .container {
+            max-width: 750px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            color: white;
+            font-size: 3rem;
+            margin-left: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        @media (min-width: 600px) {
+            ul {
+                flex-direction: row;
+            }
+            li {
+                margin-left: 10px;
+            }
+            li:not(:last-child) {
+                margin-right: 10px;
+                white-space: nowrap;
+            }
+            .container {
+                margin: 20px 20px;
+                align-items: flex-start;
+            }
+            h1 {
+                font-size: 4.4rem;
+            }
+        }
+        .link {
+            display: block;
+            margin: 10px 0 8px 0;
+            padding: 16px 20px 15px 20px;
+            background-color: #222222;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+            transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+            border: 1px solid transparent;
+        }
+        .link:hover {
+            background-color: black;
+            border-color: white;
+        }
+        .link:focus {
+            outline: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vincent Charlebois</h1>
+        <nav aria-label="Main navigation">
+        <ul>
+            <li>
+                <a href="https:///www.linkedin.com/in/vincent-charlebois/" class="link">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ffforests/" class="link">Instagram</a>
+            </li>
+            <li>
+                <a href="https://warpcast.com/xxc" class="link">Warpcast</a>
+            </li>
+            <li>
+                <a href="mailto:vincent@charlebois.info" class="link">Email</a>
+            </li>
+            <li>
+                <a href="https://x.com/vincencharleboi" class="link" aria-label="X: Vincent's words">X: words</a>
+            </li>
+            <li>
+                <a href="https://x.com/vncntxyz" class="link" aria-label="X: Vincent's images">X: images</a>
+            </li>
+            <li>
+                <a href="https://hypha.coop" class="link">Hypha</a>
+            </li>
+            <li>
+                <a href="https://github.com/tripledoublev/" class="link">GitHub</a>
+            </li>
+            <li>
+                <a href="https://vncnt.xyz" class="link">Web3</a>
+            </li>
+            <li>
+                <a href="https://vincentcharlebois.com" class="link">.com</a>
+            </li>
+            <li>
+                <a href="https://vincent.charlebois.info" class="link">.info</a>
+            </li>
+            <li>
+                <a href="https://vincentcharlebois.net" class="link">.net</a>
+            </li>
+            <li>
+                <a href="https://tripledoublev.github.io/CV/" class="link">CV</a>
+            </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
